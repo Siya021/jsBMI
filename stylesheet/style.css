@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -49,7 +49,14 @@ body {
     justify-content: space-between;
     margin-bottom: 10px;
   }
-  
+  #clear {
+    background-color: red;
+    margin-top: 15px;
+  }
+  #calculate{
+    background-color: green;
+    margin-top: 15px;
+  }
   .answer {
     margin-top: 20px;
     font-weight: bold;

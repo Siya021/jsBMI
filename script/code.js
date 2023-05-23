@@ -6,7 +6,7 @@ function calculateBMI() {
     if (weight === "" || height === "") {
       document.getElementById("answer").innerHTML = "Please enter the missing values";
     } else {
-      let bmi = weight / (height * height);
+      let bmi = weight /Math.pow(height * height);
       document.getElementById("answer").innerHTML = "Answer is =" + bmi.toFixed(2);
     }}
 
